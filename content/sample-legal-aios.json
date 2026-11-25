@@ -1,0 +1,13 @@
+{
+  "series": "Build Story",
+  "caption": "A personal-injury law firm was tracking statutory deadlines by hand. One missed date = a malpractice claim. Here's what we built, and what changed. Save this if your business runs on documents, deadlines and follow-ups.",
+  "slides": [
+    { "type": "hook", "label": "Case file / Legal", "text": "One missed date. One ==malpractice claim.==", "sub": "How a law firm stopped living in fear of the calendar." },
+    { "type": "story", "label": "01 / The problem", "text": "Deadlines lived in *inboxes* and spreadsheets.", "body": "Every new matter meant reading court rules, counting days, and hoping nobody forgot to update the sheet." },
+    { "type": "list", "label": "02 / What we built", "text": "A practice OS that *knows the rules.*", "items": ["A 24+ rule deadline engine", "Stage-gated matter workflows", "Two-way email sync", "Automatic follow-ups and a live fee-earner timer"] },
+    { "type": "shift", "label": "03 / The shift", "before": "Lawyers counting days by hand, every matter, every week.", "after": "Every deadline calculated, tracked and chased ==automatically.==" },
+    { "type": "stat", "label": "04 / The result", "value": "70%", "unit": "+", "text": "of admin drafting time, saved.", "body": "With 100% deadline compliance since launch." },
+    { "type": "quote", "text": "It eliminated our statutory deadline malpractice risk.", "name": "Leading personal injury law practice", "role": "Legal AIOS client", "initials": "L" },
+    { "type": "cta", "label": "Your turn", "text": "Does your business run on ==deadlines and follow-ups?==", "actions": ["Save this", "DM us \"AUDIT\""] }
+  ]
+}

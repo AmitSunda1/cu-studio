@@ -1,0 +1,47 @@
+{
+  "voice": "en-US-AndrewMultilingualNeural",
+  "rate": "+8%",
+  "gap": 0.25,
+  "beats": [
+    {
+      "id": "hook",
+      "vo": "I asked my team one question, and nobody said a word for two minutes."
+    },
+    {
+      "id": "silence",
+      "vo": "What are you obsessed with? At first, nobody had an answer. Some said nothing. Some said... work.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "first",
+      "vo": "But I wasn't looking for the answer that sounds good in a meeting. So I went first.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "answers",
+      "vo": "And then the room opened up. Adventure. Coding. Things people could talk about for hours."
+    },
+    {
+      "id": "source",
+      "vo": "I borrowed this question from the founder of Wispr Flow. He asks it when he hires."
+    },
+    {
+      "id": "hiring",
+      "vo": "We spend so much time checking skills and experience. What if we also asked what drives someone beyond the job?"
+    },
+    {
+      "id": "list",
+      "vo": "Solving problems. Building things. Adventure. Understanding people. Getting better, every single day."
+    },
+    {
+      "id": "difference",
+      "vo": "Being good at something makes you capable. Being obsessed with it makes you keep getting better."
+    },
+    {
+      "id": "ask",
+      "vo": "So if I asked your team, would they have an answer? Would you?"
+    }
+  ],
+  "endCard": 2.6,
+  "edit": "content/obsessed-reel-edit.mjs"
+}

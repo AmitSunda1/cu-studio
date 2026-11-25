@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Amit",
+    "voice": "hi-IN-MadhurNeural",
+    "face": "face-amit-duo.png"
+  },
+  {
+    "name": "Kapil",
+    "voice": "en-US-AndrewMultilingualNeural",
+    "face": "face-kapil-duo.png"
+  },
+  {
+    "name": "Sakshi",
+    "voice": "hi-IN-SwaraNeural",
+    "face": "face-sakshi-duo.png"
+  },
+  {
+    "name": "Mansi",
+    "voice": "en-US-EmmaMultilingualNeural",
+    "face": "face-mansi-duo.png"
+  }
+]

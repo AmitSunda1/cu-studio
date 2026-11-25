@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&display=swap");
+
+/* CU Social — slide components. Loaded after tokens.css. Every colour comes from a token;
+   set data-theme="paper|midnight|ultraviolet" on each .cu-slide / .cu-reel. */
+
+.type-hook, .type-headline, .type-title, .type-quote, .type-reel-hook { text-wrap: balance; margin: 0; }
+.type-body-lg, .type-body { text-wrap: pretty; margin: 0; }
+.type-label { text-transform: uppercase; margin: 0; }
+
+/* ---------- Canvas ---------- */
+.cu-slide, .cu-reel {
+  position: relative; overflow: hidden; isolation: isolate; box-sizing: border-box; flex: none;
+  background: var(--ground); color: var(--ink); font-family: var(--font-text);
+  -webkit-font-smoothing: antialiased;
+}
+.cu-slide *, .cu-reel * { box-sizing: border-box; }
+.cu-slide :is(h1, h2, h3, p, blockquote, ul), .cu-reel :is(h1, h2, h3, p) { margin: 0; }
+.cu-slide {
+  width: var(--carousel-width); height: var(--carousel-height);
+  padding: var(--space-11);
+  display: flex; flex-direction: column; gap: var(--space-8);
+}
+.cu-reel { width: var(--carousel-width); height: var(--reel-height); }
+
+/* ---------- Chrome: top bar and footer, same place on every slide ---------- */
+.cu-chrome, .cu-foot { position: relative; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.cu-brand { display: flex; align-items: center; gap: 14px; font: 500 24px/1 var(--font-mono); letter-spacing: 0.02em; color: var(--ink); }
+.cu-mark { width: 56px; height: 56px; display: block; }
+[data-theme="ultraviolet"] .cu-mark, [data-theme="ultraviolet"] .cu-wordmark { filter: brightness(0) invert(1); }
+.cu-tag {
+  font: 500 22px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 14px 24px; border-radius: var(--radius-pill); border: 2px solid var(--line); color: var(--ink-soft);
+}
+.cu-count { font: 500 24px/1 var(--font-mono); letter-spacing: 0.04em; color: var(--ink-soft); white-space: nowrap; }
+.cu-count b { color: var(--ink); font-weight: 500; }
+.cu-progress { flex: 1; height: 6px; border-radius: var(--radius-pill); background: var(--line); overflow: hidden; }
+.cu-progress > i { display: block; height: 100%; width: var(--p, 12.5%); background: var(--accent); border-radius: inherit; }
+.cu-swipe {
+  font: 500 22px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap;
+  padding: 16px 26px; border-radius: var(--radius-pill); background: var(--ink); color: var(--ground);
+}
+
+/* ---------- Body ---------- */
+.cu-body { position: relative; z-index: 2; flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: var(--space-4); }
+.cu-body--end { justify-content: flex-end; }
+.cu-body--start { justify-content: flex-start; }
+.cu-label { font: 500 24px/1.2 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0; }
+.cu-accent { color: var(--accent); }
+.cu-soft { color: var(--ink-soft); }
+.cu-hl {
+  background: var(--highlight); color: var(--on-highlight);
+  padding: 0 0.12em; border-radius: calc(var(--radius-sm) * 0.7);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+
+/* Star list: the sparkle from creativeupaay.com, set as a glyph in accent */
+.cu-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); }
+.cu-list li { display: grid; grid-template-columns: 44px 1fr; align-items: baseline; font: 400 34px/1.4 var(--font-text); }
+.cu-list li::before { content: "✦"; color: var(--accent); font-size: 30px; }
+
+/* ---------- Cards, before/after ---------- */
+.cu-card { background: var(--ground-raised); border: 2px solid var(--line); border-radius: var(--radius-lg); padding: var(--space-6); display: grid; gap: var(--space-2); }
+.cu-card--accent { border: 4px solid var(--accent); }
+.cu-shift { display: grid; gap: var(--space-4); }
+
+/* ---------- Stat ---------- */
+.cu-stat { color: var(--accent); }
+.cu-stat small { font-size: 0.4em; letter-spacing: -0.02em; }
+
+/* ---------- Quote ---------- */
+.cu-quote-mark { font: 800 260px/0.7 var(--font-display); color: var(--accent); height: 150px; margin: 0; }
+.cu-by { display: flex; align-items: center; gap: var(--space-3); }
+.cu-avatar { width: 104px; height: 104px; border-radius: var(--radius-pill); object-fit: cover; background: var(--ground-raised); border: 3px solid var(--accent); display: grid; place-items: center; font: 800 40px/1 var(--font-display); color: var(--accent); flex: none; }
+.cu-by-name { font: 700 34px/1.2 var(--font-text); }
+.cu-by-role { font: 400 28px/1.3 var(--font-text); color: var(--ink-soft); }
+
+/* ---------- Photo / screenshot frame ---------- */
+.cu-photo { position: relative; border-radius: var(--radius-lg); overflow: hidden; background: var(--ground-raised); border: 2px solid var(--line); min-height: 0; }
+.cu-photo > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.cu-photo-empty { display: grid; place-items: center; height: 100%; font: 500 22px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft);
+  background: repeating-linear-gradient(135deg, var(--ground-raised) 0 22px, var(--line) 22px 24px); }
+
+/* ---------- CTA ---------- */
+.cu-actions { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.cu-btn { font: 600 34px/1 var(--font-text); padding: 26px 40px; border-radius: var(--radius-pill); background: var(--ground-raised); border: 2px solid var(--line); color: var(--ink); }
+.cu-btn--primary { background: var(--ink); color: var(--ground); border-color: var(--ink); }
+.cu-wordmark { width: 560px; display: block; }
+
+/* ---------- Motif: the open arc, echo of the C in the logo ---------- */
+.cu-arc { position: absolute; z-index: 0; width: 980px; height: 980px; right: -330px; bottom: -330px; color: var(--motif); pointer-events: none; }
+.cu-arc circle { fill: none; stroke: currentColor; stroke-width: 96; stroke-linecap: round; stroke-dasharray: 2050 463; transform: rotate(-58deg); transform-origin: 500px 500px; }
+.cu-arc--top { top: -380px; bottom: auto; right: -260px; }
+.cu-arc--left { left: -420px; right: auto; bottom: -260px; }
+.cu-arc--big { width: 1300px; height: 1300px; right: -520px; bottom: -420px; }
+
+/* ---------- Reels ---------- */
+.cu-reel-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.cu-reel-media--empty { background: repeating-linear-gradient(135deg, var(--ground) 0 30px, var(--ground-raised) 30px 60px); }
+.cu-reel-hook {
+  position: absolute; z-index: 2; top: calc(var(--reel-safe-top) + 80px); left: var(--space-11); right: var(--reel-safe-right);
+  display: grid; justify-items: start; gap: var(--space-3);
+}
+.cu-reel-hook .type-reel-hook { background: var(--ground); color: var(--ink); padding: 28px 40px 34px; border-radius: var(--radius-lg); }
+.cu-caption {
+  position: absolute; z-index: 2; left: var(--space-11); right: var(--reel-safe-right);
+  bottom: calc(var(--reel-safe-bottom) + 120px);
+  text-align: center; color: var(--neutral-white); margin: 0;
+  text-shadow: 0 4px 28px rgba(18, 18, 74, 0.7), 0 2px 4px rgba(18, 18, 74, 0.6);
+}
+.cu-caption .on { background: var(--highlight); color: var(--on-highlight); text-shadow: none; padding: 0 0.14em; border-radius: 14px; }
+.cu-reel-tag { position: absolute; z-index: 2; top: calc(var(--reel-safe-top) - 10px); left: var(--space-11); }
+.cu-guides { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.cu-guides > div { position: absolute; border: 3px dashed var(--accent); }
+.cu-guides .safe { top: var(--reel-safe-top); bottom: var(--reel-safe-bottom); left: var(--space-11); right: var(--reel-safe-right); }
+.cu-guides .crop { top: 240px; height: var(--reel-cover-crop); left: 0; right: 0; border-color: var(--highlight); }
+.cu-guides span { position: absolute; top: 10px; left: 14px; font: 500 22px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); background: var(--ground); padding: 6px 10px; border-radius: 8px; }
+.cu-guides .crop span { color: var(--on-highlight); background: var(--highlight); top: auto; bottom: 10px; }
+
+/* ---------- Reel stage: animated-type reels on a solid ground (no footage) ---------- */
+.cu-reel-top { position: absolute; z-index: 2; top: var(--reel-safe-top); left: var(--space-11); right: var(--reel-safe-right); display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.cu-stage { position: absolute; z-index: 2; top: calc(var(--reel-safe-top) + 140px); bottom: calc(var(--reel-safe-bottom) + 200px); left: var(--space-11); right: var(--reel-safe-right); display: flex; flex-direction: column; justify-content: center; gap: var(--space-4); }
+.type-kinetic { font: 800 140px/0.95 var(--font-display); letter-spacing: -0.04em; margin: 0; text-wrap: balance; }
+.type-kinetic-xl { font: 800 300px/0.85 var(--font-display); letter-spacing: -0.05em; margin: 0; }
+.cu-caption--plain { color: var(--ink); text-shadow: none; text-align: left; font: 700 50px/1.2 var(--font-text); bottom: calc(var(--reel-safe-bottom) + 40px); }
+.cu-caption--plain .on { background: var(--highlight); color: var(--on-highlight); }
+.cu-strike { text-decoration: line-through; text-decoration-thickness: 6px; text-decoration-color: var(--accent); color: var(--ink-soft); }
+
+/* ---------- Reel props: small visual elements that animate in on the voice ---------- */
+.cu-row { display: flex; align-items: center; gap: var(--space-4); }
+.cu-chip { flex: none; width: 128px; height: 128px; border-radius: var(--radius-lg); background: var(--ground-raised); border: 3px solid var(--accent); display: grid; place-items: center; color: var(--accent); font: 500 48px/1 var(--font-mono); }
+.cu-chip svg { width: 64px; height: 64px; fill: none; stroke: currentColor; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.cu-timer { display: inline-flex; align-items: center; gap: 18px; align-self: flex-start; padding: 18px 30px; border-radius: var(--radius-pill); background: var(--ground-raised); border: 2px solid var(--line); font: 500 56px/1 var(--font-mono); color: var(--ink); }
+.cu-timer svg { width: 52px; height: 52px; fill: none; stroke: var(--accent); stroke-width: 6; stroke-linecap: round; }
+.cu-bubble { align-self: flex-start; position: relative; padding: 26px 40px; border-radius: var(--radius-lg) var(--radius-lg) var(--radius-lg) 8px; background: var(--ground-raised); border: 2px solid var(--line); font: 600 44px/1.25 var(--font-text); color: var(--ink); }
+.cu-bubble--me { align-self: flex-end; border-radius: var(--radius-lg) var(--radius-lg) 8px var(--radius-lg); background: var(--accent); color: var(--ground); border-color: var(--accent); }
+.cu-dots { display: inline-flex; gap: 14px; padding: 6px 4px; }
+.cu-dots b { width: 22px; height: 22px; border-radius: 50%; background: var(--ink-soft); display: block; }
+.cu-caret { display: inline-block; width: 5px; height: 1em; background: var(--accent); vertical-align: -0.12em; margin-left: 4px; }
+.cu-ticks { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.cu-ticks li { font: 700 54px/1.15 var(--font-display); letter-spacing: -0.02em; display: flex; gap: 18px; align-items: center; }
+.cu-ticks li::before { content: "✓"; color: var(--accent); font: 700 44px/1 var(--font-text); }
+.cu-bigq { position: absolute; z-index: 1; right: 60px; top: 760px; font: 800 900px/0.8 var(--font-display); color: var(--motif); pointer-events: none; transform-origin: center !important; }
+.cu-ring { position: absolute; z-index: 1; left: 50%; top: 1010px; width: 980px; height: 980px; margin-left: -490px; pointer-events: none; }
+.cu-ring text { font: 700 50px var(--font-display); letter-spacing: 0.04em; fill: var(--ink-soft); opacity: 0.5; text-transform: uppercase; }
+.cu-chart { width: 100%; height: 300px; display: block; overflow: visible; }
+.cu-chart path { fill: none; stroke-width: 12; stroke-linecap: round; }
+.cu-chart .flat { stroke: var(--ink-soft); }
+.cu-chart .up { stroke: var(--highlight); }
+.cu-chart .axis { stroke: var(--line); stroke-width: 4; }
+.cu-chart text { font: 500 30px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; }
+.cu-chart .t-flat { fill: var(--ink-soft); } .cu-chart .t-up { fill: var(--highlight); }
+.cu-comment { display: grid; gap: 14px; padding: 34px 40px; border-radius: var(--radius-lg); background: var(--ground-raised); border: 2px solid var(--line); align-self: stretch; }
+.cu-comment .who { display: flex; align-items: center; gap: 16px; font: 700 34px/1 var(--font-text); }
+.cu-comment .who i { width: 56px; height: 56px; border-radius: 50%; background: var(--highlight); display: block; }
+.cu-comment .say { font: 600 48px/1.25 var(--font-text); }

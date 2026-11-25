@@ -1,0 +1,22 @@
+{
+  "name": "cu-social",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "studio": "node studio/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "playwright-core": "^1.49.1"
+  },
+  "devDependencies": {
+    "lottie-web": "^5.12.2",
+    "lucide-static": "^1.66.0"
+  }
+}

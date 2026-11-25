@@ -1,0 +1,51 @@
+{
+  "slug": "gta6",
+  "title": "Dear Saurabh Sir & Manish Sir, We're Sorry!",
+  "lang": "hi",
+  "legacy": true,
+  "reel": "gta6-reel",
+  "assets": "assets/gta6",
+  "stage": "final",
+  "done": true,
+  "sessionId": null,
+  "job": null,
+  "createdAt": 1795174844464,
+  "updatedAt": 1795174844464,
+  "stages": {
+    "carousel": {
+      "status": "approved",
+      "summary": "Reel only: no carousel was made for this skit.",
+      "updatedAt": 1795174844464
+    },
+    "script": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    },
+    "breakdown": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    },
+    "assets": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    },
+    "moodboards": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    },
+    "edit": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    },
+    "final": {
+      "status": "approved",
+      "summary": "Made in chat on 20 Nov, before CU Studio supported dialogue reels.",
+      "updatedAt": 1795174844464
+    }
+  }
+}

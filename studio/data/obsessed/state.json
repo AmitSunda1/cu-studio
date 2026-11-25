@@ -1,0 +1,53 @@
+{
+  "slug": "obsessed",
+  "title": "What are you obsessed with?",
+  "createdAt": 1794982800000,
+  "sessionId": null,
+  "stage": "final",
+  "job": null,
+  "legacy": true,
+  "stages": {
+    "carousel": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    },
+    "script": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    },
+    "breakdown": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio. The breakdown and moodboards are from the 65 s Prabhat version; the final reel is the faster Andrew re-voice.",
+      "updatedAt": 1795006800000
+    },
+    "assets": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    },
+    "moodboards": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    },
+    "edit": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    },
+    "final": {
+      "status": "approved",
+      "summary": "Made in chat on 18 Nov, before CU Studio.",
+      "updatedAt": 1795006800000
+    }
+  },
+  "updatedAt": 1795168405573,
+  "reel": "obsessed-reel-fast",
+  "assets": "assets/obsessed",
+  "done": true,
+  "files": {
+    "breakdown": "content/obsessed-reel-breakdown.md"
+  }
+}

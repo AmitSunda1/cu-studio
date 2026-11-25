@@ -1,0 +1,26 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-11-18T12:10:00Z" },
+  "title": "CU Social",
+  "namespace": "CUSocial",
+  "libraries": [],
+  "sections": {},
+  "groups": ["Logos"],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": ["cu-icon.png", "cu-logo-full.png", "cu-wordmark-footer.svg", "cu-star.png"],
+      "files": {
+        "cu-icon.png": { "name": "cu-icon.png", "blob": "764704ba9df8484302c57b76564800cf", "size": 56188, "type": "image/png" },
+        "cu-logo-full.png": { "name": "cu-logo-full.png", "blob": "42d05b442cbe00db0937c1c84ba9b4ff", "size": 65661, "type": "image/png" },
+        "cu-wordmark-footer.svg": { "name": "cu-wordmark-footer.svg", "blob": "074c3041449bc4e220c0bc266c921fa6", "size": 13416, "type": "image/svg+xml" },
+        "cu-star.png": { "name": "cu-star.png", "blob": "98036d4f83b2780ba52ae4194c85c704", "size": 5950, "type": "image/png" }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": { "readme": "project/README.md", "sections": [] },
+  "lastChange": { "by": "Claude", "at": "2026-11-18T12:10:00Z", "via": "Claude Code", "note": "First version of the CU Social design system" }
+}

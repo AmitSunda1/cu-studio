@@ -1,0 +1,127 @@
+{
+  "title": "Dear Saurabh Sir & Manish Sir, We're Sorry!",
+  "lang": "hi",
+  "voice": "hi-IN-MadhurNeural",
+  "rate": "+18%",
+  "gap": 0.12,
+  "endCard": 3.6,
+  "cast": {
+    "amit": "hi-IN-MadhurNeural",
+    "kapil": "en-US-AndrewMultilingualNeural",
+    "sakshi": "hi-IN-SwaraNeural",
+    "mansi": "en-US-EmmaMultilingualNeural"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "who": "all",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "डियर सौरभ सर, मनीष सर... हम दिल से माफ़ी मांगते हैं।",
+      "cap": "Dear Saurabh Sir, Manish Sir... hum dil se maafi maangte hain.",
+      "pauseAfter": 0.21
+    },
+    {
+      "id": "galti",
+      "who": "all",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "आज हमसे बहुत बड़ी गलती हो गई। पर सर, यह हम नहीं थे... हमपे वशीकरण हुआ था!",
+      "cap": "Aaj humse bahut badi galti ho gayi. Par Sir, yeh hum nahi the... humpe vashikaran hua tha!",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "jaipur",
+      "who": "amit",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "आज सौरभ सर और मनीष सर इवेंट के लिए जयपुर गए थे।",
+      "cap": "Aaj Saurabh Sir aur Manish Sir event ke liye Jaipur gaye the."
+    },
+    {
+      "id": "masoom",
+      "who": "kapil",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "vo": "और ऑफिस में रह गए हम चार मासूम लोग।",
+      "cap": "Aur office mein reh gaye hum chaar masoom log."
+    },
+    {
+      "id": "monitor",
+      "who": "sakshi",
+      "voice": "hi-IN-SwaraNeural",
+      "vo": "तभी नज़र पड़ी सर के सत्ताईस~इंच वाले मॉनिटर पर।",
+      "cap": "Tabhi nazar padi Sir ke 27-inch wale monitor par."
+    },
+    {
+      "id": "console",
+      "who": "mansi",
+      "voice": "en-US-EmmaMultilingualNeural",
+      "vo": "और हमने उसे पी~एस~फाइव से कनेक्ट कर दिया।",
+      "cap": "Aur humne usse PS5 se connect kar diya."
+    },
+    {
+      "id": "kahani",
+      "who": "amit",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "लेकिन सर, असली कहानी तो अब शुरू होती है...",
+      "cap": "Lekin Sir, asli kahani toh ab shuru hoti hai...",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "shakti",
+      "who": "kapil",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "vo": "पता नहीं किस शक्ति ने हमें कंट्रोल किया...",
+      "cap": "Pata nahi kis shakti ne humein control kiya..."
+    },
+    {
+      "id": "card",
+      "who": "sakshi",
+      "voice": "hi-IN-SwaraNeural",
+      "vo": "...कंपनी के कार्ड से जीटीए सिक्स खरीद लिया!",
+      "cap": "...company ke card se GTA 6 khareed liya!"
+    },
+    {
+      "id": "shaam",
+      "who": "mansi",
+      "voice": "en-US-EmmaMultilingualNeural",
+      "vo": "फिर सुबह कब शाम हो गई, पता ही नहीं चला।",
+      "cap": "Phir subah kab shaam ho gayi, pata hi nahi chala.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "marzi",
+      "who": "amit",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "सर, यह सब हमारी मर्ज़ी से नहीं हुआ।",
+      "cap": "Sir, yeh sab humari marzi se nahi hua."
+    },
+    {
+      "id": "eod",
+      "who": "sakshi",
+      "voice": "hi-IN-SwaraNeural",
+      "vo": "हम तो ई~ओ~डी अपडेट देने ही वाले थे...",
+      "cap": "Hum toh EOD update dene hi wale the..."
+    },
+    {
+      "id": "gta",
+      "who": "mansi",
+      "voice": "en-US-EmmaMultilingualNeural",
+      "vo": "बस ई~ओ~डी में थोड़ा सा जीटीए ऐड हो गया।",
+      "cap": "Bas EOD mein thoda sa GTA add ho gaya.",
+      "pauseAfter": 0.28
+    },
+    {
+      "id": "baat",
+      "who": "amit",
+      "voice": "hi-IN-MadhurNeural",
+      "vo": "और हाँ सर, एक बात और—",
+      "cap": "Aur haan Sir, ek baat aur—",
+      "pauseAfter": 0.03
+    },
+    {
+      "id": "punch",
+      "who": "kapil",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "vo": "जीटीए सिक्स बहुत अच्छा गेम है, सर!",
+      "cap": "GTA 6 bahut achha game hai, Sir!"
+    }
+  ]
+}

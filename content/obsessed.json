@@ -1,0 +1,15 @@
+{
+  "series": "From the Desk",
+  "caption": "I asked my team a question that left everyone silent for two minutes: \"What are you obsessed with?\"\n\nAt first, nobody had an answer. So I went first, and then the answers started coming. Adventure. Coding. Things people could talk about endlessly.\n\nI borrowed the question from the founder of Wispr Flow, who uses it in his hiring process. It made me rethink how we look at people when we hire.\n\nBeing good at something makes you capable of doing it. Being obsessed with it makes you want to keep getting better at it.\n\nSo: if I asked your team what they're obsessed with, would they have an answer? Would you know yours?\n\nTell me yours in the comments.\n\n#hiring #teamculture #founderstory #startupindia #leadership #creativeupaay",
+  "slides": [
+    { "type": "hook", "label": "From the desk / Team", "text": "“What are you ==obsessed== with?”", "sub": "I asked my team. Nobody said a word for two minutes." },
+    { "type": "story", "label": "01 / The silence", "text": "At first, *nobody* had an answer.", "body": "Some said they weren't obsessed with anything. Some said, \"Work.\" But I wasn't looking for the answer that sounds good in a meeting." },
+    { "type": "story", "label": "02 / Going first", "text": "So I *went first.*", "body": "I shared what I'm obsessed with, and how that obsession connects to growing this company. Then the answers started coming." },
+    { "type": "list", "theme": "midnight", "label": "03 / The answers", "text": "Then the room *opened up.*", "items": ["Adventure, and the experiences that come with it", "Coding (honestly, the best thing a tech company can hear)", "Interests people could talk about endlessly"] },
+    { "type": "story", "label": "04 / Where it came from", "text": "I borrowed the question from the founder of *Wispr Flow.*", "body": "He asks it in his hiring process. It got me thinking about how we look at people when we hire them." },
+    { "type": "shift", "label": "05 / How we hire", "beforeLabel": "What we always check", "before": "Skills, experience, qualifications, what you bring to the table.", "afterLabel": "What we should also ask", "after": "What ==drives you== beyond the job?" },
+    { "type": "list", "theme": "ultraviolet", "label": "06 / It doesn't have to be the company", "text": "You could be obsessed with...", "items": ["Solving problems", "Building things", "Adventure", "Understanding people", "Getting better every single day"] },
+    { "type": "story", "theme": "midnight", "label": "07 / The difference", "text": "Good makes you *capable.* ==Obsessed== makes you keep getting better.", "body": "That difference can take you places that talent alone might not." },
+    { "type": "cta", "label": "Your turn", "text": "Would your team have an answer? Would ==you?==", "actions": ["Comment your obsession", "Send to your team"] }
+  ]
+}

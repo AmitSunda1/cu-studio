@@ -1,0 +1,38 @@
+<!-- @dsCard height=288 -->
+<div class="cv">
+  <svg class="cv-art" viewBox="480 0 480 288" width="480" height="288" aria-hidden="true">
+    <!--
+      blocks: brand-midnight 200x288 slab; brand-purple 248x184 (bleeds top); brand-marigold 112x160 (bleeds bottom); brand-lilac 120x160 (bleeds right)
+      arrangement: one tall slab with three satellites, gaps space-2 (16px), corners radius-lg (36px)
+      pattern: literal motif, the open arc of the logo's C, because the smiley C is what people know Creative Upaay by; two arcs, in motif and brand-indigo
+      scales: space-2 gaps, radius-lg corners, arc stroke = space-4 (32px) with round caps
+    -->
+    <rect class="b-mid r" x="480" y="0" width="200" height="288"/>
+    <rect class="b-pur r" x="696" y="-36" width="248" height="184"/>
+    <rect class="b-mar r" x="696" y="164" width="112" height="160"/>
+    <rect class="b-lil r" x="824" y="164" width="172" height="160"/>
+    <circle class="arc a1" cx="580" cy="168" r="64"/>
+    <circle class="arc a2" cx="884" cy="56" r="44"/>
+  </svg>
+  <div class="cv-text">
+    <div class="cv-name">CU Social</div>
+    <div class="cv-tag">How Creative Upaay shows up on Instagram: build stories, plain-English AI and life at the studio.</div>
+  </div>
+</div>
+<style>
+  .cv { position: relative; width: 960px; height: 288px; background: var(--ground); overflow: hidden; }
+  .cv-art { position: absolute; left: 480px; top: 0; }
+  .r { rx: var(--radius-lg); }
+  .b-mid { fill: var(--brand-midnight); }
+  [data-theme="midnight"] .b-mid, [data-theme="ultraviolet"] .b-mid { fill: var(--brand-deep); }
+  .b-pur { fill: var(--brand-purple); }
+  .b-mar { fill: var(--brand-marigold); }
+  .b-lil { fill: var(--brand-lilac); }
+  .arc { fill: none; stroke-width: 32px; stroke-linecap: round; stroke-dasharray: 330 72; }
+  .a1 { stroke: var(--brand-indigo); transform: rotate(-58deg); transform-origin: 580px 168px; }
+  .a2 { stroke: var(--brand-lilac); transform: rotate(-58deg); transform-origin: 884px 56px; stroke-dasharray: 222 54; stroke-width: 24px; }
+  .cv-text { position: absolute; left: 32px; bottom: 32px; max-width: 420px; display: grid; gap: 16px; }
+  .cv-name { font: 800 80px/0.92 var(--font-display); letter-spacing: -0.04em; color: var(--ink); }
+  .cv-tag { font: 400 14px/1.45 var(--font-text); color: var(--ink-soft); }
+</style>
+<script></script>
